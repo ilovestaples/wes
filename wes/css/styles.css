@@ -1,0 +1,213 @@
+/* Navigation Bar */
+
+.top-bar{
+	height: 30px;
+	background-color: black;
+	width: auto;
+	opacity: 0.5;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 5;
+}
+
+.tool-bar-link {
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+.tool-bar-link {
+	color: #fff;
+	-moz-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
+}
+
+.tool-bar-link:hover {
+	color: #ff9d07;
+	text-shadow: 0px 0px 8px #ff9d07;
+	-moz-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
+}
+
+.tool-bar-link:active {
+	color: #ff9d07;
+	text-shadow: 0px 0px 3px #ff9d07;
+	-moz-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
+}
+
+.bar-link {
+	font-family: sans-serif;
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+	position: relative;
+}
+
+.bar-link::after {
+	content: "";
+	background: white;
+	mix-blend-mode: exclusion;
+	width: calc(90% + 20px);
+	height: 0;
+	position: absolute;
+	bottom: -3px;
+	left: -6px;
+	transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.bar-link:hover::after {
+	height: calc(100% + 8px)
+}
+
+.tools-bar {
+	height: 30px;
+	background-color: black;
+	width: auto;
+	opacity: 0.5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+
+
+
+/* Settings */
+/* Thank you 4chanx devs */
+
+#overlay {
+  background-color: rgba(0, 0, 0, .5);
+  display: -webkit-flex;
+  display: flex;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#wes-settings-menu {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+  height: 600px;
+  max-height: 100%;
+  width: 900px;
+  max-width: 100%;
+  margin: auto;
+  padding: 5px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+#wes-settings-menu > nav {
+  padding: 2px 2px 8px;
+  display: -webkit-flex;
+  display: flex;
+}
+#wes-settings-menu > nav a {
+  text-decoration: underline;
+}
+#wes-settings-menu > nav a.close {
+  text-decoration: none;
+  padding: 0 2px;
+  margin: 0;
+}
+.section-container {
+  -webkit-flex: 1;
+  flex: 1;
+  position: relative;
+  overflow: auto;
+  padding-right: 5px;
+  overscroll-behavior: contain;
+}
+.sections-list {
+  -webkit-flex: 1;
+  flex: 1;
+}
+.export, .import, .reset {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.tab-selected {
+  font-weight: 700;
+}
+.section-sauce ul,
+.section-advanced ul {
+  list-style: none;
+  margin: 0;
+}
+
+
+
+
+dialog {
+	padding: 10px;
+}
+
+nav {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sections-list {
+	color: white;
+	font-size: small
+}
+
+.credits {
+	color: white;
+	font-size: small;
+	display: flex;
+}
+
+fieldset {
+	border: 1px solid;
+	border-radius: 3px;
+	padding: 0.35em 0.625em;
+	margin: 0px 2px;
+	border-color: gray;
+}
+
+legend {
+	color: white;
+	padding: 1px;
+	font-size: smaller;
+}
+
+.svg-inline--fa.fa-times.fa-w-11.close {
+	cursor: pointer;
+}
+
+#utTable {
+	border-collapse: collapse;
+	border: 1px double gray;
+	font-size: smaller;
+}
+
+td {
+	border: 1px double gray;
+	padding: 3px;
+}
+
+.settings-button:hover {
+	text-decoration: underline;
+}
+
+.section-container {
+	height: 750px;
+	overflow: auto;
+	padding: 10px;
+}
