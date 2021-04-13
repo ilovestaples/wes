@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WES
 // @namespace    none
-// @version      0.1.2.4
+// @version      0.1.2.5
 // @description  .win enhancement suite - stable version
 // @author       melvin
 // @include      https://communities.win/*
@@ -32,6 +32,7 @@
     'use strict';
 
     console.log("WES " + GM.info.script.version);
+    console.log("Thank you for using WES.");
 
     /************************ 0. Setup ************************/
 
