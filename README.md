@@ -9,9 +9,8 @@ Win Enhancement Suite (WES) 👨‍🌾 is a suite of improvements that enhance 
 
 ## Current features:
 
-* 🆕**Tags**🆕 - Tag users with custom labels, click the tag 🏷 icon that appears when you hover a username and input your tag with your desired colors and text.
-* 🆕**Expandos**🆕 - View tweets, images and videos from the most popular hosting sites on TD without having to leave the page - Click the icon to the right of the link to expand it.
-* Communities bar - Easy access to the entire .win community.
+* **Tags** - Tag users with custom labels, click the tag 🏷 icon that appears when you hover a username and input your tag with your desired colors and text.
+* **Expandos** - View tweets, images and videos from the most popular hosting sites on TD without having to leave the page - Click the icon to the right of the link to expand it.
 * Expand images - Expand all images at once with a single click.
 * Easy access to submitted/comments sections - Click on your submitted/comments karma score to access the corresponding section on your profile.
 * Automatic quote - Copies highlighted text from a post and adds it as a quote in the reply box.
